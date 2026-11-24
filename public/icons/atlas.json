@@ -1,0 +1,3779 @@
+{
+  "cols": 21,
+  "rows": 18,
+  "cellSize": 96,
+  "atlasWidth": 2048,
+  "atlasHeight": 2048,
+  "icons": {
+    "dlc03_interface_icons_items_jammer": {
+      "col": 0,
+      "row": 0,
+      "u": 0.0,
+      "v": 0.953125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc03_interface_icons_items_jammer.png",
+      "isColor": false
+    },
+    "dlc03_interface_icons_items_teslacoill": {
+      "col": 1,
+      "row": 0,
+      "u": 0.046875,
+      "v": 0.953125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc03_interface_icons_items_teslacoill.png",
+      "isColor": false
+    },
+    "dlc03_interface_icons_perk_deepsleep": {
+      "col": 2,
+      "row": 0,
+      "u": 0.09375,
+      "v": 0.953125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc03_interface_icons_perk_deepsleep.png",
+      "isColor": false
+    },
+    "dlc03_interface_icons_perk_nervessteel": {
+      "col": 3,
+      "row": 0,
+      "u": 0.140625,
+      "v": 0.953125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc03_interface_icons_perk_nervessteel.png",
+      "isColor": false
+    },
+    "dlc03_interface_icons_perk_nuclear": {
+      "col": 4,
+      "row": 0,
+      "u": 0.1875,
+      "v": 0.953125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc03_interface_icons_perk_nuclear.png",
+      "isColor": false
+    },
+    "dlc03_interface_icons_perk_partyboy": {
+      "col": 5,
+      "row": 0,
+      "u": 0.234375,
+      "v": 0.953125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc03_interface_icons_perk_partyboy.png",
+      "isColor": false
+    },
+    "dlc03_interface_icons_perk_quantumchem": {
+      "col": 6,
+      "row": 0,
+      "u": 0.28125,
+      "v": 0.953125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc03_interface_icons_perk_quantumchem.png",
+      "isColor": false
+    },
+    "dlc03_interface_icons_perk_radabsorp": {
+      "col": 7,
+      "row": 0,
+      "u": 0.328125,
+      "v": 0.953125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc03_interface_icons_perk_radabsorp.png",
+      "isColor": false
+    },
+    "dlc03_interface_icons_perk_radtolerance": {
+      "col": 8,
+      "row": 0,
+      "u": 0.375,
+      "v": 0.953125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc03_interface_icons_perk_radtolerance.png",
+      "isColor": false
+    },
+    "dlc03_interface_icons_weapons_incinerator": {
+      "col": 9,
+      "row": 0,
+      "u": 0.421875,
+      "v": 0.953125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc03_interface_icons_weapons_incinerator.png",
+      "isColor": false
+    },
+    "dlc03_interface_icons_weapons_teslacannon": {
+      "col": 10,
+      "row": 0,
+      "u": 0.46875,
+      "v": 0.953125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc03_interface_icons_weapons_teslacannon.png",
+      "isColor": false
+    },
+    "dlc04_interface_icons_apparel_civilhat": {
+      "col": 11,
+      "row": 0,
+      "u": 0.515625,
+      "v": 0.953125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc04_interface_icons_apparel_civilhat.png",
+      "isColor": false
+    },
+    "dlc04_interface_icons_apparel_clownhat": {
+      "col": 12,
+      "row": 0,
+      "u": 0.5625,
+      "v": 0.953125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc04_interface_icons_apparel_clownhat.png",
+      "isColor": false
+    },
+    "dlc04_interface_icons_apparel_native": {
+      "col": 13,
+      "row": 0,
+      "u": 0.609375,
+      "v": 0.953125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc04_interface_icons_apparel_native.png",
+      "isColor": false
+    },
+    "dlc04_interface_icons_apparel_tobar": {
+      "col": 14,
+      "row": 0,
+      "u": 0.65625,
+      "v": 0.953125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc04_interface_icons_apparel_tobar.png",
+      "isColor": false
+    },
+    "dlc04_interface_icons_items_book": {
+      "col": 15,
+      "row": 0,
+      "u": 0.703125,
+      "v": 0.953125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc04_interface_icons_items_book.png",
+      "isColor": false
+    },
+    "dlc04_interface_icons_items_fruit": {
+      "col": 16,
+      "row": 0,
+      "u": 0.75,
+      "v": 0.953125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc04_interface_icons_items_fruit.png",
+      "isColor": false
+    },
+    "dlc04_interface_icons_items_jammer": {
+      "col": 17,
+      "row": 0,
+      "u": 0.796875,
+      "v": 0.953125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc04_interface_icons_items_jammer.png",
+      "isColor": false
+    },
+    "dlc04_interface_icons_items_jug": {
+      "col": 18,
+      "row": 0,
+      "u": 0.84375,
+      "v": 0.953125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc04_interface_icons_items_jug.png",
+      "isColor": false
+    },
+    "dlc04_interface_icons_items_seeds": {
+      "col": 19,
+      "row": 0,
+      "u": 0.890625,
+      "v": 0.953125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc04_interface_icons_items_seeds.png",
+      "isColor": false
+    },
+    "dlc04_interface_icons_items_teddy": {
+      "col": 20,
+      "row": 0,
+      "u": 0.9375,
+      "v": 0.953125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc04_interface_icons_items_teddy.png",
+      "isColor": false
+    },
+    "dlc04_interface_icons_items_yeast": {
+      "col": 0,
+      "row": 1,
+      "u": 0.0,
+      "v": 0.90625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc04_interface_icons_items_yeast.png",
+      "isColor": false
+    },
+    "dlc04_interface_icons_perk_anatomy": {
+      "col": 1,
+      "row": 1,
+      "u": 0.046875,
+      "v": 0.90625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc04_interface_icons_perk_anatomy.png",
+      "isColor": false
+    },
+    "dlc04_interface_icons_perk_defender": {
+      "col": 2,
+      "row": 1,
+      "u": 0.09375,
+      "v": 0.90625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc04_interface_icons_perk_defender.png",
+      "isColor": false
+    },
+    "dlc04_interface_icons_weapons_axe": {
+      "col": 3,
+      "row": 1,
+      "u": 0.140625,
+      "v": 0.90625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc04_interface_icons_weapons_axe.png",
+      "isColor": false
+    },
+    "dlc04_interface_icons_weapons_rifle": {
+      "col": 4,
+      "row": 1,
+      "u": 0.1875,
+      "v": 0.90625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc04_interface_icons_weapons_rifle.png",
+      "isColor": false
+    },
+    "dlc04_interface_icons_weapons_shotgun": {
+      "col": 5,
+      "row": 1,
+      "u": 0.234375,
+      "v": 0.90625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc04_interface_icons_weapons_shotgun.png",
+      "isColor": false
+    },
+    "dlc04_interface_icons_weapons_shovel": {
+      "col": 6,
+      "row": 1,
+      "u": 0.28125,
+      "v": 0.90625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc04_interface_icons_weapons_shovel.png",
+      "isColor": false
+    },
+    "dlc05_interface_icons_apparel_cowboy": {
+      "col": 7,
+      "row": 1,
+      "u": 0.328125,
+      "v": 0.90625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc05_interface_icons_apparel_cowboy.png",
+      "isColor": false
+    },
+    "dlc05_interface_icons_apparel_samurai": {
+      "col": 8,
+      "row": 1,
+      "u": 0.375,
+      "v": 0.90625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc05_interface_icons_apparel_samurai.png",
+      "isColor": false
+    },
+    "dlc05_interface_icons_apparel_samuraihelmet": {
+      "col": 9,
+      "row": 1,
+      "u": 0.421875,
+      "v": 0.90625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc05_interface_icons_apparel_samuraihelmet.png",
+      "isColor": false
+    },
+    "dlc05_interface_icons_apparel_spacesuit": {
+      "col": 10,
+      "row": 1,
+      "u": 0.46875,
+      "v": 0.90625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc05_interface_icons_apparel_spacesuit.png",
+      "isColor": false
+    },
+    "dlc05_interface_icons_items_aliensquid": {
+      "col": 11,
+      "row": 1,
+      "u": 0.515625,
+      "v": 0.90625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc05_interface_icons_items_aliensquid.png",
+      "isColor": false
+    },
+    "dlc05_interface_icons_items_buttercup": {
+      "col": 12,
+      "row": 1,
+      "u": 0.5625,
+      "v": 0.90625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc05_interface_icons_items_buttercup.png",
+      "isColor": false
+    },
+    "dlc05_interface_icons_items_crystal": {
+      "col": 13,
+      "row": 1,
+      "u": 0.609375,
+      "v": 0.90625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc05_interface_icons_items_crystal.png",
+      "isColor": false
+    },
+    "dlc05_interface_icons_items_dronecontroller": {
+      "col": 14,
+      "row": 1,
+      "u": 0.65625,
+      "v": 0.90625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc05_interface_icons_items_dronecontroller.png",
+      "isColor": false
+    },
+    "dlc05_interface_icons_perk_zenotech": {
+      "col": 15,
+      "row": 1,
+      "u": 0.703125,
+      "v": 0.90625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc05_interface_icons_perk_zenotech.png",
+      "isColor": false
+    },
+    "dlc05_interface_icons_weapons_atomizer": {
+      "col": 16,
+      "row": 1,
+      "u": 0.75,
+      "v": 0.90625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc05_interface_icons_weapons_atomizer.png",
+      "isColor": false
+    },
+    "dlc05_interface_icons_weapons_baton": {
+      "col": 17,
+      "row": 1,
+      "u": 0.796875,
+      "v": 0.90625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc05_interface_icons_weapons_baton.png",
+      "isColor": false
+    },
+    "dlc05_interface_icons_weapons_cannon": {
+      "col": 18,
+      "row": 1,
+      "u": 0.84375,
+      "v": 0.90625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc05_interface_icons_weapons_cannon.png",
+      "isColor": false
+    },
+    "dlc05_interface_icons_weapons_disrupter": {
+      "col": 19,
+      "row": 1,
+      "u": 0.890625,
+      "v": 0.90625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc05_interface_icons_weapons_disrupter.png",
+      "isColor": false
+    },
+    "dlc05_interface_icons_weapons_katana": {
+      "col": 20,
+      "row": 1,
+      "u": 0.9375,
+      "v": 0.90625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc05_interface_icons_weapons_katana.png",
+      "isColor": false
+    },
+    "dlc05_interface_icons_weapons_sixshooter": {
+      "col": 0,
+      "row": 2,
+      "u": 0.0,
+      "v": 0.859375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlc05_interface_icons_weapons_sixshooter.png",
+      "isColor": false
+    },
+    "dlcanch_interface_icons_dlc02_appearal_stealthsuit": {
+      "col": 1,
+      "row": 2,
+      "u": 0.046875,
+      "v": 0.859375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlcanch_interface_icons_dlc02_appearal_stealthsuit.png",
+      "isColor": false
+    },
+    "dlcanch_interface_icons_dlc02_item_explosive": {
+      "col": 2,
+      "row": 2,
+      "u": 0.09375,
+      "v": 0.859375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlcanch_interface_icons_dlc02_item_explosive.png",
+      "isColor": false
+    },
+    "dlcanch_interface_icons_dlc02_perk_covert_ops": {
+      "col": 3,
+      "row": 2,
+      "u": 0.140625,
+      "v": 0.859375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlcanch_interface_icons_dlc02_perk_covert_ops.png",
+      "isColor": false
+    },
+    "dlcanch_interface_icons_dlc02_weapons_gaussrifle": {
+      "col": 4,
+      "row": 2,
+      "u": 0.1875,
+      "v": 0.859375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlcanch_interface_icons_dlc02_weapons_gaussrifle.png",
+      "isColor": false
+    },
+    "dlcanch_interface_icons_dlc02_weapons_trenchknife": {
+      "col": 5,
+      "row": 2,
+      "u": 0.234375,
+      "v": 0.859375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlcanch_interface_icons_dlc02_weapons_trenchknife.png",
+      "isColor": false
+    },
+    "dlcpitt_interface_icons_apparel_ashur_armor": {
+      "col": 6,
+      "row": 2,
+      "u": 0.28125,
+      "v": 0.859375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlcpitt_interface_icons_apparel_ashur_armor.png",
+      "isColor": false
+    },
+    "dlcpitt_interface_icons_apparel_miner_armor": {
+      "col": 7,
+      "row": 2,
+      "u": 0.328125,
+      "v": 0.859375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlcpitt_interface_icons_apparel_miner_armor.png",
+      "isColor": false
+    },
+    "dlcpitt_interface_icons_apparel_miner_helmet": {
+      "col": 8,
+      "row": 2,
+      "u": 0.375,
+      "v": 0.859375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlcpitt_interface_icons_apparel_miner_helmet.png",
+      "isColor": false
+    },
+    "dlcpitt_interface_icons_apparel_pittraider_4": {
+      "col": 9,
+      "row": 2,
+      "u": 0.421875,
+      "v": 0.859375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlcpitt_interface_icons_apparel_pittraider_4.png",
+      "isColor": false
+    },
+    "dlcpitt_interface_icons_apparel_pittraider_1": {
+      "col": 10,
+      "row": 2,
+      "u": 0.46875,
+      "v": 0.859375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlcpitt_interface_icons_apparel_pittraider_1.png",
+      "isColor": false
+    },
+    "dlcpitt_interface_icons_apparel_pittraider_2": {
+      "col": 11,
+      "row": 2,
+      "u": 0.515625,
+      "v": 0.859375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlcpitt_interface_icons_apparel_pittraider_2.png",
+      "isColor": false
+    },
+    "dlcpitt_interface_icons_apparel_pittraider_3": {
+      "col": 12,
+      "row": 2,
+      "u": 0.5625,
+      "v": 0.859375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlcpitt_interface_icons_apparel_pittraider_3.png",
+      "isColor": false
+    },
+    "dlcpitt_interface_icons_apparel_slave_outfit": {
+      "col": 13,
+      "row": 2,
+      "u": 0.609375,
+      "v": 0.859375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlcpitt_interface_icons_apparel_slave_outfit.png",
+      "isColor": false
+    },
+    "dlcpitt_interface_icons_item_baby": {
+      "col": 14,
+      "row": 2,
+      "u": 0.65625,
+      "v": 0.859375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlcpitt_interface_icons_item_baby.png",
+      "isColor": false
+    },
+    "dlcpitt_interface_icons_item_ingot": {
+      "col": 15,
+      "row": 2,
+      "u": 0.703125,
+      "v": 0.859375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlcpitt_interface_icons_item_ingot.png",
+      "isColor": false
+    },
+    "dlcpitt_interface_icons_perk_pitt_fighter": {
+      "col": 16,
+      "row": 2,
+      "u": 0.75,
+      "v": 0.859375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlcpitt_interface_icons_perk_pitt_fighter.png",
+      "isColor": false
+    },
+    "dlcpitt_interface_icons_weapons_auto_axe": {
+      "col": 17,
+      "row": 2,
+      "u": 0.796875,
+      "v": 0.859375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlcpitt_interface_icons_weapons_auto_axe.png",
+      "isColor": false
+    },
+    "dlcpitt_interface_icons_weapons_infiltrator_rifle": {
+      "col": 18,
+      "row": 2,
+      "u": 0.84375,
+      "v": 0.859375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/dlcpitt_interface_icons_weapons_infiltrator_rifle.png",
+      "isColor": false
+    },
+    "msg_glow_message_giftbox": {
+      "col": 19,
+      "row": 2,
+      "u": 0.890625,
+      "v": 0.859375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/msg_glow_message_giftbox.png",
+      "isColor": false
+    },
+    "msg_glow_message_map": {
+      "col": 20,
+      "row": 2,
+      "u": 0.9375,
+      "v": 0.859375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/msg_glow_message_map.png",
+      "isColor": false
+    },
+    "msg_glow_message_padlock": {
+      "col": 0,
+      "row": 3,
+      "u": 0.0,
+      "v": 0.8125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/msg_glow_message_padlock.png",
+      "isColor": false
+    },
+    "msg_glow_message_radio_tower": {
+      "col": 1,
+      "row": 3,
+      "u": 0.046875,
+      "v": 0.8125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/msg_glow_message_radio_tower.png",
+      "isColor": false
+    },
+    "msg_glow_message_vaultboy_neutral": {
+      "col": 2,
+      "row": 3,
+      "u": 0.09375,
+      "v": 0.8125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/msg_glow_message_vaultboy_neutral.png",
+      "isColor": false
+    },
+    "msg_glow_message_vaultboy_surprised": {
+      "col": 3,
+      "row": 3,
+      "u": 0.140625,
+      "v": 0.8125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/msg_glow_message_vaultboy_surprised.png",
+      "isColor": false
+    },
+    "msg_glow_message_vaultboy_thinking": {
+      "col": 4,
+      "row": 3,
+      "u": 0.1875,
+      "v": 0.8125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/msg_glow_message_vaultboy_thinking.png",
+      "isColor": false
+    },
+    "apparel_appearal_activewear": {
+      "col": 5,
+      "row": 3,
+      "u": 0.234375,
+      "v": 0.8125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_appearal_activewear.png",
+      "isColor": false
+    },
+    "apparel_appearal_bonnet": {
+      "col": 6,
+      "row": 3,
+      "u": 0.28125,
+      "v": 0.8125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_appearal_bonnet.png",
+      "isColor": false
+    },
+    "apparel_appearal_business_suit": {
+      "col": 7,
+      "row": 3,
+      "u": 0.328125,
+      "v": 0.8125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_appearal_business_suit.png",
+      "isColor": false
+    },
+    "apparel_appearal_combat_armor": {
+      "col": 8,
+      "row": 3,
+      "u": 0.375,
+      "v": 0.8125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_appearal_combat_armor.png",
+      "isColor": false
+    },
+    "apparel_appearal_cowboy_duster_outfit": {
+      "col": 9,
+      "row": 3,
+      "u": 0.421875,
+      "v": 0.8125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_appearal_cowboy_duster_outfit.png",
+      "isColor": false
+    },
+    "apparel_appearal_fedora": {
+      "col": 10,
+      "row": 3,
+      "u": 0.46875,
+      "v": 0.8125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_appearal_fedora.png",
+      "isColor": false
+    },
+    "apparel_appearal_leather_armor": {
+      "col": 11,
+      "row": 3,
+      "u": 0.515625,
+      "v": 0.8125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_appearal_leather_armor.png",
+      "isColor": false
+    },
+    "apparel_appearal_overalls_shirt": {
+      "col": 12,
+      "row": 3,
+      "u": 0.5625,
+      "v": 0.8125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_appearal_overalls_shirt.png",
+      "isColor": false
+    },
+    "apparel_appearal_police_hat": {
+      "col": 13,
+      "row": 3,
+      "u": 0.609375,
+      "v": 0.8125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_appearal_police_hat.png",
+      "isColor": false
+    },
+    "apparel_appearal_screw_spike_armor": {
+      "col": 14,
+      "row": 3,
+      "u": 0.65625,
+      "v": 0.8125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_appearal_screw_spike_armor.png",
+      "isColor": false
+    },
+    "apparel_appearal_security_helmet": {
+      "col": 15,
+      "row": 3,
+      "u": 0.703125,
+      "v": 0.8125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_appearal_security_helmet.png",
+      "isColor": false
+    },
+    "apparel_appearal_tunnel_snake_outfit": {
+      "col": 16,
+      "row": 3,
+      "u": 0.75,
+      "v": 0.8125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_appearal_tunnel_snake_outfit.png",
+      "isColor": false
+    },
+    "apparel_appearal_vault_security_suit": {
+      "col": 17,
+      "row": 3,
+      "u": 0.796875,
+      "v": 0.8125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_appearal_vault_security_suit.png",
+      "isColor": false
+    },
+    "apparel_apperal_merchant_outfit": {
+      "col": 18,
+      "row": 3,
+      "u": 0.84375,
+      "v": 0.8125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_merchant_outfit.png",
+      "isColor": false
+    },
+    "apparel_apperal_antagonizer_helmet": {
+      "col": 19,
+      "row": 3,
+      "u": 0.890625,
+      "v": 0.8125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_antagonizer_helmet.png",
+      "isColor": false
+    },
+    "apparel_apperal_antagonizer_suit": {
+      "col": 20,
+      "row": 3,
+      "u": 0.9375,
+      "v": 0.8125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_antagonizer_suit.png",
+      "isColor": false
+    },
+    "apparel_apperal_baseball_cap": {
+      "col": 0,
+      "row": 4,
+      "u": 0.0,
+      "v": 0.765625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_baseball_cap.png",
+      "isColor": false
+    },
+    "apparel_apperal_brotherhood_scribe": {
+      "col": 1,
+      "row": 4,
+      "u": 0.046875,
+      "v": 0.765625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_brotherhood_scribe.png",
+      "isColor": false
+    },
+    "apparel_apperal_casual_suit": {
+      "col": 2,
+      "row": 4,
+      "u": 0.09375,
+      "v": 0.765625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_casual_suit.png",
+      "isColor": false
+    },
+    "apparel_apperal_casual_wear_outfit_2": {
+      "col": 3,
+      "row": 4,
+      "u": 0.140625,
+      "v": 0.765625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_casual_wear_outfit_2.png",
+      "isColor": false
+    },
+    "apparel_apperal_chinese_officer_hat": {
+      "col": 4,
+      "row": 4,
+      "u": 0.1875,
+      "v": 0.765625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_chinese_officer_hat.png",
+      "isColor": false
+    },
+    "apparel_apperal_chinese_officer_jumpsuit": {
+      "col": 5,
+      "row": 4,
+      "u": 0.234375,
+      "v": 0.765625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_chinese_officer_jumpsuit.png",
+      "isColor": false
+    },
+    "apparel_apperal_colonel_autmn_uniform": {
+      "col": 6,
+      "row": 4,
+      "u": 0.28125,
+      "v": 0.765625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_colonel_autmn_uniform.png",
+      "isColor": false
+    },
+    "apparel_apperal_combat_armor_helmet": {
+      "col": 7,
+      "row": 4,
+      "u": 0.328125,
+      "v": 0.765625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_combat_armor_helmet.png",
+      "isColor": false
+    },
+    "apparel_apperal_enclave_power_armor_helmet": {
+      "col": 8,
+      "row": 4,
+      "u": 0.375,
+      "v": 0.765625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_enclave_power_armor_helmet.png",
+      "isColor": false
+    },
+    "apparel_apperal_enclave_officer_hat": {
+      "col": 9,
+      "row": 4,
+      "u": 0.421875,
+      "v": 0.765625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_enclave_officer_hat.png",
+      "isColor": false
+    },
+    "apparel_apperal_enclave_officer_uniform": {
+      "col": 10,
+      "row": 4,
+      "u": 0.46875,
+      "v": 0.765625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_enclave_officer_uniform.png",
+      "isColor": false
+    },
+    "apparel_apperal_enclave_power_armor": {
+      "col": 11,
+      "row": 4,
+      "u": 0.515625,
+      "v": 0.765625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_enclave_power_armor.png",
+      "isColor": false
+    },
+    "apparel_apperal_enclave_scientist": {
+      "col": 12,
+      "row": 4,
+      "u": 0.5625,
+      "v": 0.765625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_enclave_scientist.png",
+      "isColor": false
+    },
+    "apparel_apperal_eulogy_jones_suit": {
+      "col": 13,
+      "row": 4,
+      "u": 0.609375,
+      "v": 0.765625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_eulogy_jones_suit.png",
+      "isColor": false
+    },
+    "apparel_apperal_eyebot_helmet": {
+      "col": 14,
+      "row": 4,
+      "u": 0.65625,
+      "v": 0.765625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_eyebot_helmet.png",
+      "isColor": false
+    },
+    "apparel_apperal_eyeglasses": {
+      "col": 15,
+      "row": 4,
+      "u": 0.703125,
+      "v": 0.765625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_eyeglasses.png",
+      "isColor": false
+    },
+    "apparel_apperal_ghoul_mask": {
+      "col": 16,
+      "row": 4,
+      "u": 0.75,
+      "v": 0.765625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_ghoul_mask.png",
+      "isColor": false
+    },
+    "apparel_apperal_hockey_mask": {
+      "col": 17,
+      "row": 4,
+      "u": 0.796875,
+      "v": 0.765625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_hockey_mask.png",
+      "isColor": false
+    },
+    "apparel_apperal_initiate_armor": {
+      "col": 18,
+      "row": 4,
+      "u": 0.84375,
+      "v": 0.765625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_initiate_armor.png",
+      "isColor": false
+    },
+    "apparel_apperal_initiate_armor_coif": {
+      "col": 19,
+      "row": 4,
+      "u": 0.890625,
+      "v": 0.765625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_initiate_armor_coif.png",
+      "isColor": false
+    },
+    "apparel_apperal_lincoln_hat": {
+      "col": 20,
+      "row": 4,
+      "u": 0.9375,
+      "v": 0.765625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_lincoln_hat.png",
+      "isColor": false
+    },
+    "apparel_apperal_lucas_simms_hat": {
+      "col": 0,
+      "row": 5,
+      "u": 0.0,
+      "v": 0.71875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_lucas_simms_hat.png",
+      "isColor": false
+    },
+    "apparel_apperal_mechanist_helmet": {
+      "col": 1,
+      "row": 5,
+      "u": 0.046875,
+      "v": 0.71875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_mechanist_helmet.png",
+      "isColor": false
+    },
+    "apparel_apperal_mechanist_suit": {
+      "col": 2,
+      "row": 5,
+      "u": 0.09375,
+      "v": 0.71875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_mechanist_suit.png",
+      "isColor": false
+    },
+    "apparel_apperal_metal_armor": {
+      "col": 3,
+      "row": 5,
+      "u": 0.140625,
+      "v": 0.71875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_metal_armor.png",
+      "isColor": false
+    },
+    "apparel_apperal_metal_helmet": {
+      "col": 4,
+      "row": 5,
+      "u": 0.1875,
+      "v": 0.71875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_metal_helmet.png",
+      "isColor": false
+    },
+    "apparel_apperal_oasis_hood": {
+      "col": 5,
+      "row": 5,
+      "u": 0.234375,
+      "v": 0.71875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_oasis_hood.png",
+      "isColor": false
+    },
+    "apparel_apperal_oasis_robe": {
+      "col": 6,
+      "row": 5,
+      "u": 0.28125,
+      "v": 0.71875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_oasis_robe.png",
+      "isColor": false
+    },
+    "apparel_apperal_pajamas": {
+      "col": 7,
+      "row": 5,
+      "u": 0.328125,
+      "v": 0.71875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_pajamas.png",
+      "isColor": false
+    },
+    "apparel_apperal_power_armor_helmet": {
+      "col": 8,
+      "row": 5,
+      "u": 0.375,
+      "v": 0.71875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_power_armor_helmet.png",
+      "isColor": false
+    },
+    "apparel_apperal_raider_4": {
+      "col": 9,
+      "row": 5,
+      "u": 0.421875,
+      "v": 0.71875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_raider_4.png",
+      "isColor": false
+    },
+    "apparel_apperal_raider_4_helmet": {
+      "col": 10,
+      "row": 5,
+      "u": 0.46875,
+      "v": 0.71875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_raider_4_helmet.png",
+      "isColor": false
+    },
+    "apparel_apperal_raider_armor_2": {
+      "col": 11,
+      "row": 5,
+      "u": 0.515625,
+      "v": 0.71875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_raider_armor_2.png",
+      "isColor": false
+    },
+    "apparel_apperal_raider_armor_3": {
+      "col": 12,
+      "row": 5,
+      "u": 0.5625,
+      "v": 0.71875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_raider_armor_3.png",
+      "isColor": false
+    },
+    "apparel_apperal_raider_helmet2": {
+      "col": 13,
+      "row": 5,
+      "u": 0.609375,
+      "v": 0.71875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_raider_helmet2.png",
+      "isColor": false
+    },
+    "apparel_apperal_red_bandana": {
+      "col": 14,
+      "row": 5,
+      "u": 0.65625,
+      "v": 0.71875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_red_bandana.png",
+      "isColor": false
+    },
+    "apparel_apperal_red_jumpsuit": {
+      "col": 15,
+      "row": 5,
+      "u": 0.703125,
+      "v": 0.71875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_red_jumpsuit.png",
+      "isColor": false
+    },
+    "apparel_apperal_rivet_city_scientist": {
+      "col": 16,
+      "row": 5,
+      "u": 0.75,
+      "v": 0.71875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_rivet_city_scientist.png",
+      "isColor": false
+    },
+    "apparel_apperal_saver_outfit_1_helmet": {
+      "col": 17,
+      "row": 5,
+      "u": 0.796875,
+      "v": 0.71875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_saver_outfit_1_helmet.png",
+      "isColor": false
+    },
+    "apparel_apperal_shades": {
+      "col": 18,
+      "row": 5,
+      "u": 0.84375,
+      "v": 0.71875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_shades.png",
+      "isColor": false
+    },
+    "apparel_apperal_slaver_outfit_1": {
+      "col": 19,
+      "row": 5,
+      "u": 0.890625,
+      "v": 0.71875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_slaver_outfit_1.png",
+      "isColor": false
+    },
+    "apparel_apperal_slaver_outfit_2": {
+      "col": 20,
+      "row": 5,
+      "u": 0.9375,
+      "v": 0.71875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_slaver_outfit_2.png",
+      "isColor": false
+    },
+    "apparel_apperal_slaver_outfit_3": {
+      "col": 0,
+      "row": 6,
+      "u": 0.0,
+      "v": 0.671875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_slaver_outfit_3.png",
+      "isColor": false
+    },
+    "apparel_apperal_slaver_outfit_3_goggles": {
+      "col": 1,
+      "row": 6,
+      "u": 0.046875,
+      "v": 0.671875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_slaver_outfit_3_goggles.png",
+      "isColor": false
+    },
+    "apparel_apperal_slaver_outfit_4": {
+      "col": 2,
+      "row": 6,
+      "u": 0.09375,
+      "v": 0.671875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_slaver_outfit_4.png",
+      "isColor": false
+    },
+    "apparel_apperal_tenpennys_outfit": {
+      "col": 3,
+      "row": 6,
+      "u": 0.140625,
+      "v": 0.671875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_tenpennys_outfit.png",
+      "isColor": false
+    },
+    "apparel_apperal_tesla_armor": {
+      "col": 4,
+      "row": 6,
+      "u": 0.1875,
+      "v": 0.671875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_tesla_armor.png",
+      "isColor": false
+    },
+    "apparel_apperal_vault_jumpsuit_armored": {
+      "col": 5,
+      "row": 6,
+      "u": 0.234375,
+      "v": 0.671875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_vault_jumpsuit_armored.png",
+      "isColor": false
+    },
+    "apparel_apperal_wasteland_medic": {
+      "col": 6,
+      "row": 6,
+      "u": 0.28125,
+      "v": 0.671875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_wasteland_medic.png",
+      "isColor": false
+    },
+    "apparel_apperal_wasteland_rags_outfit": {
+      "col": 7,
+      "row": 6,
+      "u": 0.328125,
+      "v": 0.671875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_apperal_wasteland_rags_outfit.png",
+      "isColor": false
+    },
+    "apparel_power_armor": {
+      "col": 8,
+      "row": 6,
+      "u": 0.375,
+      "v": 0.671875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_power_armor.png",
+      "isColor": false
+    },
+    "apparel_vault_suit": {
+      "col": 9,
+      "row": 6,
+      "u": 0.421875,
+      "v": 0.671875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_vault_suit.png",
+      "isColor": false
+    },
+    "apparel_vault_suit_101": {
+      "col": 10,
+      "row": 6,
+      "u": 0.46875,
+      "v": 0.671875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_vault_suit_101.png",
+      "isColor": false
+    },
+    "apparel_vault_suit_108": {
+      "col": 11,
+      "row": 6,
+      "u": 0.515625,
+      "v": 0.671875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_vault_suit_108.png",
+      "isColor": false
+    },
+    "apparel_vault_suit_112": {
+      "col": 12,
+      "row": 6,
+      "u": 0.5625,
+      "v": 0.671875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_vault_suit_112.png",
+      "isColor": false
+    },
+    "apparel_vault_suit_76": {
+      "col": 13,
+      "row": 6,
+      "u": 0.609375,
+      "v": 0.671875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/apparel_vault_suit_76.png",
+      "isColor": false
+    },
+    "items_item_bobby_pin": {
+      "col": 14,
+      "row": 6,
+      "u": 0.65625,
+      "v": 0.671875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_item_bobby_pin.png",
+      "isColor": false
+    },
+    "items_item_buffout": {
+      "col": 15,
+      "row": 6,
+      "u": 0.703125,
+      "v": 0.671875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_item_buffout.png",
+      "isColor": false
+    },
+    "items_item_holotap": {
+      "col": 16,
+      "row": 6,
+      "u": 0.75,
+      "v": 0.671875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_item_holotap.png",
+      "isColor": false
+    },
+    "items_item_jet": {
+      "col": 17,
+      "row": 6,
+      "u": 0.796875,
+      "v": 0.671875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_item_jet.png",
+      "isColor": false
+    },
+    "items_item_junk": {
+      "col": 18,
+      "row": 6,
+      "u": 0.84375,
+      "v": 0.671875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_item_junk.png",
+      "isColor": false
+    },
+    "items_item_key": {
+      "col": 19,
+      "row": 6,
+      "u": 0.890625,
+      "v": 0.671875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_item_key.png",
+      "isColor": false
+    },
+    "items_item_morphine": {
+      "col": 20,
+      "row": 6,
+      "u": 0.9375,
+      "v": 0.671875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_item_morphine.png",
+      "isColor": false
+    },
+    "items_item_passcard": {
+      "col": 0,
+      "row": 7,
+      "u": 0.0,
+      "v": 0.625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_item_passcard.png",
+      "isColor": false
+    },
+    "items_item_psycho": {
+      "col": 1,
+      "row": 7,
+      "u": 0.046875,
+      "v": 0.625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_item_psycho.png",
+      "isColor": false
+    },
+    "items_item_rad_x": {
+      "col": 2,
+      "row": 7,
+      "u": 0.09375,
+      "v": 0.625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_item_rad_x.png",
+      "isColor": false
+    },
+    "items_item_scotch": {
+      "col": 3,
+      "row": 7,
+      "u": 0.140625,
+      "v": 0.625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_item_scotch.png",
+      "isColor": false
+    },
+    "items_items_32_calibur": {
+      "col": 4,
+      "row": 7,
+      "u": 0.1875,
+      "v": 0.625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_32_calibur.png",
+      "isColor": false
+    },
+    "items_items_44_magnum_round": {
+      "col": 5,
+      "row": 7,
+      "u": 0.234375,
+      "v": 0.625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_44_magnum_round.png",
+      "isColor": false
+    },
+    "items_items_10mm_rounds": {
+      "col": 6,
+      "row": 7,
+      "u": 0.28125,
+      "v": 0.625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_10mm_rounds.png",
+      "isColor": false
+    },
+    "items_items_5_56mm_rounds": {
+      "col": 7,
+      "row": 7,
+      "u": 0.328125,
+      "v": 0.625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_5_56mm_rounds.png",
+      "isColor": false
+    },
+    "items_items_5mm_box": {
+      "col": 8,
+      "row": 7,
+      "u": 0.375,
+      "v": 0.625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_5mm_box.png",
+      "isColor": false
+    },
+    "items_items_action_abe_figure": {
+      "col": 9,
+      "row": 7,
+      "u": 0.421875,
+      "v": 0.625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_action_abe_figure.png",
+      "isColor": false
+    },
+    "items_items_ant_meat": {
+      "col": 10,
+      "row": 7,
+      "u": 0.46875,
+      "v": 0.625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_ant_meat.png",
+      "isColor": false
+    },
+    "items_items_ant_resin": {
+      "col": 11,
+      "row": 7,
+      "u": 0.515625,
+      "v": 0.625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_ant_resin.png",
+      "isColor": false
+    },
+    "items_items_bb": {
+      "col": 12,
+      "row": 7,
+      "u": 0.5625,
+      "v": 0.625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_bb.png",
+      "isColor": false
+    },
+    "items_items_birch_sap": {
+      "col": 13,
+      "row": 7,
+      "u": 0.609375,
+      "v": 0.625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_birch_sap.png",
+      "isColor": false
+    },
+    "items_items_cola": {
+      "col": 14,
+      "row": 7,
+      "u": 0.65625,
+      "v": 0.625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_cola.png",
+      "isColor": false
+    },
+    "items_items_crab_cake": {
+      "col": 15,
+      "row": 7,
+      "u": 0.703125,
+      "v": 0.625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_crab_cake.png",
+      "isColor": false
+    },
+    "items_items_crab_meat": {
+      "col": 16,
+      "row": 7,
+      "u": 0.75,
+      "v": 0.625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_crab_meat.png",
+      "isColor": false
+    },
+    "items_items_deathclaw": {
+      "col": 17,
+      "row": 7,
+      "u": 0.796875,
+      "v": 0.625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_deathclaw.png",
+      "isColor": false
+    },
+    "items_items_drink": {
+      "col": 18,
+      "row": 7,
+      "u": 0.84375,
+      "v": 0.625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_drink.png",
+      "isColor": false
+    },
+    "items_items_energy_cell": {
+      "col": 19,
+      "row": 7,
+      "u": 0.890625,
+      "v": 0.625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_energy_cell.png",
+      "isColor": false
+    },
+    "items_items_fatman_round": {
+      "col": 20,
+      "row": 7,
+      "u": 0.9375,
+      "v": 0.625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_fatman_round.png",
+      "isColor": false
+    },
+    "items_items_fev_vial": {
+      "col": 0,
+      "row": 8,
+      "u": 0.0,
+      "v": 0.578125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_fev_vial.png",
+      "isColor": false
+    },
+    "items_items_fly_meat": {
+      "col": 1,
+      "row": 8,
+      "u": 0.046875,
+      "v": 0.578125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_fly_meat.png",
+      "isColor": false
+    },
+    "items_items_fuse": {
+      "col": 2,
+      "row": 8,
+      "u": 0.09375,
+      "v": 0.578125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_fuse.png",
+      "isColor": false
+    },
+    "items_items_fusion_cell": {
+      "col": 3,
+      "row": 8,
+      "u": 0.140625,
+      "v": 0.578125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_fusion_cell.png",
+      "isColor": false
+    },
+    "items_items_fusion_pulse_charge": {
+      "col": 4,
+      "row": 8,
+      "u": 0.1875,
+      "v": 0.578125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_fusion_pulse_charge.png",
+      "isColor": false
+    },
+    "items_items_geck": {
+      "col": 5,
+      "row": 8,
+      "u": 0.234375,
+      "v": 0.578125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_geck.png",
+      "isColor": false
+    },
+    "items_items_gland": {
+      "col": 6,
+      "row": 8,
+      "u": 0.28125,
+      "v": 0.578125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_gland.png",
+      "isColor": false
+    },
+    "items_items_grognak_barbarian": {
+      "col": 7,
+      "row": 8,
+      "u": 0.328125,
+      "v": 0.578125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_grognak_barbarian.png",
+      "isColor": false
+    },
+    "items_items_holo_dogtag": {
+      "col": 8,
+      "row": 8,
+      "u": 0.375,
+      "v": 0.578125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_holo_dogtag.png",
+      "isColor": false
+    },
+    "items_items_laurel_liniment": {
+      "col": 9,
+      "row": 8,
+      "u": 0.421875,
+      "v": 0.578125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_laurel_liniment.png",
+      "isColor": false
+    },
+    "items_items_licoln_diary": {
+      "col": 10,
+      "row": 8,
+      "u": 0.46875,
+      "v": 0.578125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_licoln_diary.png",
+      "isColor": false
+    },
+    "items_items_lincoln_coins": {
+      "col": 11,
+      "row": 8,
+      "u": 0.515625,
+      "v": 0.578125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_lincoln_coins.png",
+      "isColor": false
+    },
+    "items_items_lincoln_memorial_poster": {
+      "col": 12,
+      "row": 8,
+      "u": 0.5625,
+      "v": 0.578125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_lincoln_memorial_poster.png",
+      "isColor": false
+    },
+    "items_items_lincoln_voice": {
+      "col": 13,
+      "row": 8,
+      "u": 0.609375,
+      "v": 0.578125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_lincoln_voice.png",
+      "isColor": false
+    },
+    "items_items_lucy_envelope": {
+      "col": 14,
+      "row": 8,
+      "u": 0.65625,
+      "v": 0.578125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_lucy_envelope.png",
+      "isColor": false
+    },
+    "items_items_mentats": {
+      "col": 15,
+      "row": 8,
+      "u": 0.703125,
+      "v": 0.578125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_mentats.png",
+      "isColor": false
+    },
+    "items_items_ms03observer": {
+      "col": 16,
+      "row": 8,
+      "u": 0.75,
+      "v": 0.578125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_ms03observer.png",
+      "isColor": false
+    },
+    "items_items_note": {
+      "col": 17,
+      "row": 8,
+      "u": 0.796875,
+      "v": 0.578125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_note.png",
+      "isColor": false
+    },
+    "items_items_nuka_cola_cap": {
+      "col": 18,
+      "row": 8,
+      "u": 0.84375,
+      "v": 0.578125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_nuka_cola_cap.png",
+      "isColor": false
+    },
+    "items_items_nuka_truck": {
+      "col": 19,
+      "row": 8,
+      "u": 0.890625,
+      "v": 0.578125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_nuka_truck.png",
+      "isColor": false
+    },
+    "items_items_party_hat": {
+      "col": 20,
+      "row": 8,
+      "u": 0.9375,
+      "v": 0.578125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_party_hat.png",
+      "isColor": false
+    },
+    "items_items_pheremonegenerator": {
+      "col": 0,
+      "row": 9,
+      "u": 0.0,
+      "v": 0.53125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_pheremonegenerator.png",
+      "isColor": false
+    },
+    "items_items_powdered_wig": {
+      "col": 1,
+      "row": 9,
+      "u": 0.046875,
+      "v": 0.53125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_powdered_wig.png",
+      "isColor": false
+    },
+    "items_items_processor_widget": {
+      "col": 2,
+      "row": 9,
+      "u": 0.09375,
+      "v": 0.53125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_processor_widget.png",
+      "isColor": false
+    },
+    "items_items_roach_meat": {
+      "col": 3,
+      "row": 9,
+      "u": 0.140625,
+      "v": 0.53125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_roach_meat.png",
+      "isColor": false
+    },
+    "items_items_schematics_bottlecap_mine": {
+      "col": 4,
+      "row": 9,
+      "u": 0.1875,
+      "v": 0.53125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_schematics_bottlecap_mine.png",
+      "isColor": false
+    },
+    "items_items_schematics_dart_gun": {
+      "col": 5,
+      "row": 9,
+      "u": 0.234375,
+      "v": 0.53125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_schematics_dart_gun.png",
+      "isColor": false
+    },
+    "items_items_schematics_deathclaw": {
+      "col": 6,
+      "row": 9,
+      "u": 0.28125,
+      "v": 0.53125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_schematics_deathclaw.png",
+      "isColor": false
+    },
+    "items_items_schematics_launcher": {
+      "col": 7,
+      "row": 9,
+      "u": 0.328125,
+      "v": 0.53125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_schematics_launcher.png",
+      "isColor": false
+    },
+    "items_items_schematics_nuka_grenade": {
+      "col": 8,
+      "row": 9,
+      "u": 0.375,
+      "v": 0.53125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_schematics_nuka_grenade.png",
+      "isColor": false
+    },
+    "items_items_schematics_railway_rifle": {
+      "col": 9,
+      "row": 9,
+      "u": 0.421875,
+      "v": 0.53125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_schematics_railway_rifle.png",
+      "isColor": false
+    },
+    "items_items_schematics_shishkebab": {
+      "col": 10,
+      "row": 9,
+      "u": 0.46875,
+      "v": 0.53125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_schematics_shishkebab.png",
+      "isColor": false
+    },
+    "items_items_scroll": {
+      "col": 11,
+      "row": 9,
+      "u": 0.515625,
+      "v": 0.53125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_scroll.png",
+      "isColor": false
+    },
+    "items_items_severed_ear": {
+      "col": 12,
+      "row": 9,
+      "u": 0.5625,
+      "v": 0.53125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_severed_ear.png",
+      "isColor": false
+    },
+    "items_items_severed_finger": {
+      "col": 13,
+      "row": 9,
+      "u": 0.609375,
+      "v": 0.53125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_severed_finger.png",
+      "isColor": false
+    },
+    "items_items_shotgun_shell": {
+      "col": 14,
+      "row": 9,
+      "u": 0.65625,
+      "v": 0.53125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_shotgun_shell.png",
+      "isColor": false
+    },
+    "items_items_skill_books_chinise_army": {
+      "col": 15,
+      "row": 9,
+      "u": 0.703125,
+      "v": 0.53125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_skill_books_chinise_army.png",
+      "isColor": false
+    },
+    "items_items_skill_books_duck_cover": {
+      "col": 16,
+      "row": 9,
+      "u": 0.75,
+      "v": 0.53125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_skill_books_duck_cover.png",
+      "isColor": false
+    },
+    "items_items_skill_books_electronics": {
+      "col": 17,
+      "row": 9,
+      "u": 0.796875,
+      "v": 0.53125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_skill_books_electronics.png",
+      "isColor": false
+    },
+    "items_items_skill_books_guns_bullets": {
+      "col": 18,
+      "row": 9,
+      "u": 0.84375,
+      "v": 0.53125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_skill_books_guns_bullets.png",
+      "isColor": false
+    },
+    "items_items_skill_books_junktown": {
+      "col": 19,
+      "row": 9,
+      "u": 0.890625,
+      "v": 0.53125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_skill_books_junktown.png",
+      "isColor": false
+    },
+    "items_items_skill_books_lying": {
+      "col": 20,
+      "row": 9,
+      "u": 0.9375,
+      "v": 0.53125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_skill_books_lying.png",
+      "isColor": false
+    },
+    "items_items_skill_books_medicine": {
+      "col": 0,
+      "row": 10,
+      "u": 0.0,
+      "v": 0.484375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_skill_books_medicine.png",
+      "isColor": false
+    },
+    "items_items_skill_books_pugilism": {
+      "col": 1,
+      "row": 10,
+      "u": 0.046875,
+      "v": 0.484375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_skill_books_pugilism.png",
+      "isColor": false
+    },
+    "items_items_skill_books_science": {
+      "col": 2,
+      "row": 10,
+      "u": 0.09375,
+      "v": 0.484375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_skill_books_science.png",
+      "isColor": false
+    },
+    "items_items_skill_books_tesla": {
+      "col": 3,
+      "row": 10,
+      "u": 0.140625,
+      "v": 0.484375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_skill_books_tesla.png",
+      "isColor": false
+    },
+    "items_items_skill_books_tumblers": {
+      "col": 4,
+      "row": 10,
+      "u": 0.1875,
+      "v": 0.484375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_skill_books_tumblers.png",
+      "isColor": false
+    },
+    "items_items_skill_books_us_army": {
+      "col": 5,
+      "row": 10,
+      "u": 0.234375,
+      "v": 0.484375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_skill_books_us_army.png",
+      "isColor": false
+    },
+    "items_items_skill_books": {
+      "col": 6,
+      "row": 10,
+      "u": 0.28125,
+      "v": 0.484375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_skill_books.png",
+      "isColor": false
+    },
+    "items_items_slave_collar": {
+      "col": 7,
+      "row": 10,
+      "u": 0.328125,
+      "v": 0.484375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_slave_collar.png",
+      "isColor": false
+    },
+    "items_items_steak": {
+      "col": 8,
+      "row": 10,
+      "u": 0.375,
+      "v": 0.484375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_steak.png",
+      "isColor": false
+    },
+    "items_items_stealthboy": {
+      "col": 9,
+      "row": 10,
+      "u": 0.421875,
+      "v": 0.484375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_stealthboy.png",
+      "isColor": false
+    },
+    "items_items_stimpack": {
+      "col": 10,
+      "row": 10,
+      "u": 0.46875,
+      "v": 0.484375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_stimpack.png",
+      "isColor": false
+    },
+    "items_items_sweetroll": {
+      "col": 11,
+      "row": 10,
+      "u": 0.515625,
+      "v": 0.484375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_sweetroll.png",
+      "isColor": false
+    },
+    "items_items_vine": {
+      "col": 12,
+      "row": 10,
+      "u": 0.5625,
+      "v": 0.484375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_vine.png",
+      "isColor": false
+    },
+    "items_items_violin": {
+      "col": 13,
+      "row": 10,
+      "u": 0.609375,
+      "v": 0.484375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_violin.png",
+      "isColor": false
+    },
+    "items_items_virgo_ii_dish": {
+      "col": 14,
+      "row": 10,
+      "u": 0.65625,
+      "v": 0.484375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_virgo_ii_dish.png",
+      "isColor": false
+    },
+    "items_items_vodka": {
+      "col": 15,
+      "row": 10,
+      "u": 0.703125,
+      "v": 0.484375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_vodka.png",
+      "isColor": false
+    },
+    "items_items_water": {
+      "col": 16,
+      "row": 10,
+      "u": 0.75,
+      "v": 0.484375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_water.png",
+      "isColor": false
+    },
+    "items_items_whiskey": {
+      "col": 17,
+      "row": 10,
+      "u": 0.796875,
+      "v": 0.484375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_whiskey.png",
+      "isColor": false
+    },
+    "items_items_yew_bear_charm": {
+      "col": 18,
+      "row": 10,
+      "u": 0.84375,
+      "v": 0.484375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/items_items_yew_bear_charm.png",
+      "isColor": false
+    },
+    "perks_perk_action_boy": {
+      "col": 19,
+      "row": 10,
+      "u": 0.890625,
+      "v": 0.484375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_action_boy.png",
+      "isColor": false
+    },
+    "perks_perk_adamantium_skeleton": {
+      "col": 20,
+      "row": 10,
+      "u": 0.9375,
+      "v": 0.484375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_adamantium_skeleton.png",
+      "isColor": false
+    },
+    "perks_perk_animal_friend": {
+      "col": 0,
+      "row": 11,
+      "u": 0.0,
+      "v": 0.4375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_animal_friend.png",
+      "isColor": false
+    },
+    "perks_perk_better_criticals": {
+      "col": 1,
+      "row": 11,
+      "u": 0.046875,
+      "v": 0.4375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_better_criticals.png",
+      "isColor": false
+    },
+    "perks_perk_black_widow": {
+      "col": 2,
+      "row": 11,
+      "u": 0.09375,
+      "v": 0.4375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_black_widow.png",
+      "isColor": false
+    },
+    "perks_perk_bloody_mess": {
+      "col": 3,
+      "row": 11,
+      "u": 0.140625,
+      "v": 0.4375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_bloody_mess.png",
+      "isColor": false
+    },
+    "perks_perk_cannibal": {
+      "col": 4,
+      "row": 11,
+      "u": 0.1875,
+      "v": 0.4375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_cannibal.png",
+      "isColor": false
+    },
+    "perks_perk_chem_resistant": {
+      "col": 5,
+      "row": 11,
+      "u": 0.234375,
+      "v": 0.4375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_chem_resistant.png",
+      "isColor": false
+    },
+    "perks_perk_chemist": {
+      "col": 6,
+      "row": 11,
+      "u": 0.28125,
+      "v": 0.4375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_chemist.png",
+      "isColor": false
+    },
+    "perks_perk_child_at_heart": {
+      "col": 7,
+      "row": 11,
+      "u": 0.328125,
+      "v": 0.4375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_child_at_heart.png",
+      "isColor": false
+    },
+    "perks_perk_commando": {
+      "col": 8,
+      "row": 11,
+      "u": 0.375,
+      "v": 0.4375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_commando.png",
+      "isColor": false
+    },
+    "perks_perk_comprehension": {
+      "col": 9,
+      "row": 11,
+      "u": 0.421875,
+      "v": 0.4375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_comprehension.png",
+      "isColor": false
+    },
+    "perks_perk_concentrated_fire": {
+      "col": 10,
+      "row": 11,
+      "u": 0.46875,
+      "v": 0.4375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_concentrated_fire.png",
+      "isColor": false
+    },
+    "perks_perk_contract_killer": {
+      "col": 11,
+      "row": 11,
+      "u": 0.515625,
+      "v": 0.4375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_contract_killer.png",
+      "isColor": false
+    },
+    "perks_perk_cyborg": {
+      "col": 12,
+      "row": 11,
+      "u": 0.5625,
+      "v": 0.4375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_cyborg.png",
+      "isColor": false
+    },
+    "perks_perk_demolition_expert": {
+      "col": 13,
+      "row": 11,
+      "u": 0.609375,
+      "v": 0.4375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_demolition_expert.png",
+      "isColor": false
+    },
+    "perks_perk_educated": {
+      "col": 14,
+      "row": 11,
+      "u": 0.65625,
+      "v": 0.4375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_educated.png",
+      "isColor": false
+    },
+    "perks_perk_entomologist": {
+      "col": 15,
+      "row": 11,
+      "u": 0.703125,
+      "v": 0.4375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_entomologist.png",
+      "isColor": false
+    },
+    "perks_perk_explorer": {
+      "col": 16,
+      "row": 11,
+      "u": 0.75,
+      "v": 0.4375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_explorer.png",
+      "isColor": false
+    },
+    "perks_perk_fast_metabolism": {
+      "col": 17,
+      "row": 11,
+      "u": 0.796875,
+      "v": 0.4375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_fast_metabolism.png",
+      "isColor": false
+    },
+    "perks_perk_finesse": {
+      "col": 18,
+      "row": 11,
+      "u": 0.84375,
+      "v": 0.4375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_finesse.png",
+      "isColor": false
+    },
+    "perks_perk_grim_reaper": {
+      "col": 19,
+      "row": 11,
+      "u": 0.890625,
+      "v": 0.4375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_grim_reaper.png",
+      "isColor": false
+    },
+    "perks_perk_gun_nut": {
+      "col": 20,
+      "row": 11,
+      "u": 0.9375,
+      "v": 0.4375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_gun_nut.png",
+      "isColor": false
+    },
+    "perks_perk_gunslinger": {
+      "col": 0,
+      "row": 12,
+      "u": 0.0,
+      "v": 0.390625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_gunslinger.png",
+      "isColor": false
+    },
+    "perks_perk_impartial_mediation": {
+      "col": 1,
+      "row": 12,
+      "u": 0.046875,
+      "v": 0.390625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_impartial_mediation.png",
+      "isColor": false
+    },
+    "perks_perk_infiltrator": {
+      "col": 2,
+      "row": 12,
+      "u": 0.09375,
+      "v": 0.390625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_infiltrator.png",
+      "isColor": false
+    },
+    "perks_perk_iron_fist": {
+      "col": 3,
+      "row": 12,
+      "u": 0.140625,
+      "v": 0.390625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_iron_fist.png",
+      "isColor": false
+    },
+    "perks_perk_l33t_haxx0r": {
+      "col": 4,
+      "row": 12,
+      "u": 0.1875,
+      "v": 0.390625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_l33t_haxx0r.png",
+      "isColor": false
+    },
+    "perks_perk_lady_killer": {
+      "col": 5,
+      "row": 12,
+      "u": 0.234375,
+      "v": 0.390625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_lady_killer.png",
+      "isColor": false
+    },
+    "perks_perk_lawbringer": {
+      "col": 6,
+      "row": 12,
+      "u": 0.28125,
+      "v": 0.390625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_lawbringer.png",
+      "isColor": false
+    },
+    "perks_perk_lead_belly": {
+      "col": 7,
+      "row": 12,
+      "u": 0.328125,
+      "v": 0.390625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_lead_belly.png",
+      "isColor": false
+    },
+    "perks_perk_life_giver": {
+      "col": 8,
+      "row": 12,
+      "u": 0.375,
+      "v": 0.390625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_life_giver.png",
+      "isColor": false
+    },
+    "perks_perk_light_step_mines": {
+      "col": 9,
+      "row": 12,
+      "u": 0.421875,
+      "v": 0.390625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_light_step_mines.png",
+      "isColor": false
+    },
+    "perks_perk_like_father_like_son": {
+      "col": 10,
+      "row": 12,
+      "u": 0.46875,
+      "v": 0.390625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_like_father_like_son.png",
+      "isColor": false
+    },
+    "perks_perk_little_leaguer": {
+      "col": 11,
+      "row": 12,
+      "u": 0.515625,
+      "v": 0.390625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_little_leaguer.png",
+      "isColor": false
+    },
+    "perks_perk_master_trader": {
+      "col": 12,
+      "row": 12,
+      "u": 0.5625,
+      "v": 0.390625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_master_trader.png",
+      "isColor": false
+    },
+    "perks_perk_mister_sandman": {
+      "col": 13,
+      "row": 12,
+      "u": 0.609375,
+      "v": 0.390625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_mister_sandman.png",
+      "isColor": false
+    },
+    "perks_perk_ms04strength": {
+      "col": 14,
+      "row": 12,
+      "u": 0.65625,
+      "v": 0.390625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_ms04strength.png",
+      "isColor": false
+    },
+    "perks_perk_ms08_wired_reflexes": {
+      "col": 15,
+      "row": 12,
+      "u": 0.703125,
+      "v": 0.390625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_ms08_wired_reflexes.png",
+      "isColor": false
+    },
+    "perks_perk_ms09_hematophage": {
+      "col": 16,
+      "row": 12,
+      "u": 0.75,
+      "v": 0.390625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_ms09_hematophage.png",
+      "isColor": false
+    },
+    "perks_perk_ms10_barkskin": {
+      "col": 17,
+      "row": 12,
+      "u": 0.796875,
+      "v": 0.390625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_ms10_barkskin.png",
+      "isColor": false
+    },
+    "perks_perk_mysterious_stranger": {
+      "col": 18,
+      "row": 12,
+      "u": 0.84375,
+      "v": 0.390625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_mysterious_stranger.png",
+      "isColor": false
+    },
+    "perks_perk_nerd_rage": {
+      "col": 19,
+      "row": 12,
+      "u": 0.890625,
+      "v": 0.390625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_nerd_rage.png",
+      "isColor": false
+    },
+    "perks_perk_night_person": {
+      "col": 20,
+      "row": 12,
+      "u": 0.9375,
+      "v": 0.390625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_night_person.png",
+      "isColor": false
+    },
+    "perks_perk_ninja": {
+      "col": 0,
+      "row": 13,
+      "u": 0.0,
+      "v": 0.34375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_ninja.png",
+      "isColor": false
+    },
+    "perks_perk_paralyzing_palm": {
+      "col": 1,
+      "row": 13,
+      "u": 0.046875,
+      "v": 0.34375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_paralyzing_palm.png",
+      "isColor": false
+    },
+    "perks_perk_pyromaniac": {
+      "col": 2,
+      "row": 13,
+      "u": 0.09375,
+      "v": 0.34375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_pyromaniac.png",
+      "isColor": false
+    },
+    "perks_perk_rad_resistance": {
+      "col": 3,
+      "row": 13,
+      "u": 0.140625,
+      "v": 0.34375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_rad_resistance.png",
+      "isColor": false
+    },
+    "perks_perk_robotics_expert": {
+      "col": 4,
+      "row": 13,
+      "u": 0.1875,
+      "v": 0.34375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_robotics_expert.png",
+      "isColor": false
+    },
+    "perks_perk_scoundrel": {
+      "col": 5,
+      "row": 13,
+      "u": 0.234375,
+      "v": 0.34375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_scoundrel.png",
+      "isColor": false
+    },
+    "perks_perk_silent_running": {
+      "col": 6,
+      "row": 13,
+      "u": 0.28125,
+      "v": 0.34375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_silent_running.png",
+      "isColor": false
+    },
+    "perks_perk_size_matters": {
+      "col": 7,
+      "row": 13,
+      "u": 0.328125,
+      "v": 0.34375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_size_matters.png",
+      "isColor": false
+    },
+    "perks_perk_sniper": {
+      "col": 8,
+      "row": 13,
+      "u": 0.375,
+      "v": 0.34375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_sniper.png",
+      "isColor": false
+    },
+    "perks_perk_solar_powered": {
+      "col": 9,
+      "row": 13,
+      "u": 0.421875,
+      "v": 0.34375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_solar_powered.png",
+      "isColor": false
+    },
+    "perks_perk_strong_back": {
+      "col": 10,
+      "row": 13,
+      "u": 0.46875,
+      "v": 0.34375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_strong_back.png",
+      "isColor": false
+    },
+    "perks_perk_survival_guru": {
+      "col": 11,
+      "row": 13,
+      "u": 0.515625,
+      "v": 0.34375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_survival_guru.png",
+      "isColor": false
+    },
+    "perks_perk_swift_learner": {
+      "col": 12,
+      "row": 13,
+      "u": 0.5625,
+      "v": 0.34375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_swift_learner.png",
+      "isColor": false
+    },
+    "perks_perk_thief": {
+      "col": 13,
+      "row": 13,
+      "u": 0.609375,
+      "v": 0.34375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_thief.png",
+      "isColor": false
+    },
+    "perks_perk_toughness": {
+      "col": 14,
+      "row": 13,
+      "u": 0.65625,
+      "v": 0.34375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/perks_perk_toughness.png",
+      "isColor": false
+    },
+    "weapons_assault_rifle": {
+      "col": 15,
+      "row": 13,
+      "u": 0.703125,
+      "v": 0.34375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_assault_rifle.png",
+      "isColor": false
+    },
+    "weapons_weapons_10mm_pistol": {
+      "col": 16,
+      "row": 13,
+      "u": 0.75,
+      "v": 0.34375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_10mm_pistol.png",
+      "isColor": false
+    },
+    "weapons_weapons_10mm_submachine_gun": {
+      "col": 17,
+      "row": 13,
+      "u": 0.796875,
+      "v": 0.34375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_10mm_submachine_gun.png",
+      "isColor": false
+    },
+    "weapons_weapons_32_snub_nose": {
+      "col": 18,
+      "row": 13,
+      "u": 0.84375,
+      "v": 0.34375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_32_snub_nose.png",
+      "isColor": false
+    },
+    "weapons_weapons_alien_blaster": {
+      "col": 19,
+      "row": 13,
+      "u": 0.890625,
+      "v": 0.34375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_alien_blaster.png",
+      "isColor": false
+    },
+    "weapons_weapons_american_assault_rifle": {
+      "col": 20,
+      "row": 13,
+      "u": 0.9375,
+      "v": 0.34375,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_american_assault_rifle.png",
+      "isColor": false
+    },
+    "weapons_weapons_baseballbat": {
+      "col": 0,
+      "row": 14,
+      "u": 0.0,
+      "v": 0.296875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_baseballbat.png",
+      "isColor": false
+    },
+    "weapons_weapons_baton": {
+      "col": 1,
+      "row": 14,
+      "u": 0.046875,
+      "v": 0.296875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_baton.png",
+      "isColor": false
+    },
+    "weapons_weapons_bb_gun": {
+      "col": 2,
+      "row": 14,
+      "u": 0.09375,
+      "v": 0.296875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_bb_gun.png",
+      "isColor": false
+    },
+    "weapons_weapons_bottlecap_mine": {
+      "col": 3,
+      "row": 14,
+      "u": 0.140625,
+      "v": 0.296875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_bottlecap_mine.png",
+      "isColor": false
+    },
+    "weapons_weapons_brass_knuckles": {
+      "col": 4,
+      "row": 14,
+      "u": 0.1875,
+      "v": 0.296875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_brass_knuckles.png",
+      "isColor": false
+    },
+    "weapons_weapons_chinese_mauser": {
+      "col": 5,
+      "row": 14,
+      "u": 0.234375,
+      "v": 0.296875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_chinese_mauser.png",
+      "isColor": false
+    },
+    "weapons_weapons_chinese_sword": {
+      "col": 6,
+      "row": 14,
+      "u": 0.28125,
+      "v": 0.296875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_chinese_sword.png",
+      "isColor": false
+    },
+    "weapons_weapons_combat_knife": {
+      "col": 7,
+      "row": 14,
+      "u": 0.328125,
+      "v": 0.296875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_combat_knife.png",
+      "isColor": false
+    },
+    "weapons_weapons_combat_shotgun": {
+      "col": 8,
+      "row": 14,
+      "u": 0.375,
+      "v": 0.296875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_combat_shotgun.png",
+      "isColor": false
+    },
+    "weapons_weapons_deathclaw": {
+      "col": 9,
+      "row": 14,
+      "u": 0.421875,
+      "v": 0.296875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_deathclaw.png",
+      "isColor": false
+    },
+    "weapons_weapons_fatman": {
+      "col": 10,
+      "row": 14,
+      "u": 0.46875,
+      "v": 0.296875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_fatman.png",
+      "isColor": false
+    },
+    "weapons_weapons_flamer": {
+      "col": 11,
+      "row": 14,
+      "u": 0.515625,
+      "v": 0.296875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_flamer.png",
+      "isColor": false
+    },
+    "weapons_weapons_frag_grenade": {
+      "col": 12,
+      "row": 14,
+      "u": 0.5625,
+      "v": 0.296875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_frag_grenade.png",
+      "isColor": false
+    },
+    "weapons_weapons_gatling_laser": {
+      "col": 13,
+      "row": 14,
+      "u": 0.609375,
+      "v": 0.296875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_gatling_laser.png",
+      "isColor": false
+    },
+    "weapons_weapons_hunting_rifle": {
+      "col": 14,
+      "row": 14,
+      "u": 0.65625,
+      "v": 0.296875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_hunting_rifle.png",
+      "isColor": false
+    },
+    "weapons_weapons_knife": {
+      "col": 15,
+      "row": 14,
+      "u": 0.703125,
+      "v": 0.296875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_knife.png",
+      "isColor": false
+    },
+    "weapons_weapons_laser_pistol": {
+      "col": 16,
+      "row": 14,
+      "u": 0.75,
+      "v": 0.296875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_laser_pistol.png",
+      "isColor": false
+    },
+    "weapons_weapons_laser_rifle": {
+      "col": 17,
+      "row": 14,
+      "u": 0.796875,
+      "v": 0.296875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_laser_rifle.png",
+      "isColor": false
+    },
+    "weapons_weapons_lead_pipe": {
+      "col": 18,
+      "row": 14,
+      "u": 0.84375,
+      "v": 0.296875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_lead_pipe.png",
+      "isColor": false
+    },
+    "weapons_weapons_lincoln_s_repeating_rifler": {
+      "col": 19,
+      "row": 14,
+      "u": 0.890625,
+      "v": 0.296875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_lincoln_s_repeating_rifler.png",
+      "isColor": false
+    },
+    "weapons_weapons_mesmatron": {
+      "col": 20,
+      "row": 14,
+      "u": 0.9375,
+      "v": 0.296875,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_mesmatron.png",
+      "isColor": false
+    },
+    "weapons_weapons_mine": {
+      "col": 0,
+      "row": 15,
+      "u": 0.0,
+      "v": 0.25,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_mine.png",
+      "isColor": false
+    },
+    "weapons_weapons_minigun": {
+      "col": 1,
+      "row": 15,
+      "u": 0.046875,
+      "v": 0.25,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_minigun.png",
+      "isColor": false
+    },
+    "weapons_weapons_missile_launcher": {
+      "col": 2,
+      "row": 15,
+      "u": 0.09375,
+      "v": 0.25,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_missile_launcher.png",
+      "isColor": false
+    },
+    "weapons_weapons_nail_board": {
+      "col": 3,
+      "row": 15,
+      "u": 0.140625,
+      "v": 0.25,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_nail_board.png",
+      "isColor": false
+    },
+    "weapons_weapons_nuka_grenade": {
+      "col": 4,
+      "row": 15,
+      "u": 0.1875,
+      "v": 0.25,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_nuka_grenade.png",
+      "isColor": false
+    },
+    "weapons_weapons_plasma_grenade": {
+      "col": 5,
+      "row": 15,
+      "u": 0.234375,
+      "v": 0.25,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_plasma_grenade.png",
+      "isColor": false
+    },
+    "weapons_weapons_plasma_mine": {
+      "col": 6,
+      "row": 15,
+      "u": 0.28125,
+      "v": 0.25,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_plasma_mine.png",
+      "isColor": false
+    },
+    "weapons_weapons_plasma_pistol": {
+      "col": 7,
+      "row": 15,
+      "u": 0.328125,
+      "v": 0.25,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_plasma_pistol.png",
+      "isColor": false
+    },
+    "weapons_weapons_plasma_rifle": {
+      "col": 8,
+      "row": 15,
+      "u": 0.375,
+      "v": 0.25,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_plasma_rifle.png",
+      "isColor": false
+    },
+    "weapons_weapons_pool_cue": {
+      "col": 9,
+      "row": 15,
+      "u": 0.421875,
+      "v": 0.25,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_pool_cue.png",
+      "isColor": false
+    },
+    "weapons_weapons_power_fist": {
+      "col": 10,
+      "row": 15,
+      "u": 0.46875,
+      "v": 0.25,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_power_fist.png",
+      "isColor": false
+    },
+    "weapons_weapons_pulse_grenade": {
+      "col": 11,
+      "row": 15,
+      "u": 0.515625,
+      "v": 0.25,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_pulse_grenade.png",
+      "isColor": false
+    },
+    "weapons_weapons_pulse_mine": {
+      "col": 12,
+      "row": 15,
+      "u": 0.5625,
+      "v": 0.25,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_pulse_mine.png",
+      "isColor": false
+    },
+    "weapons_weapons_railway_rifle": {
+      "col": 13,
+      "row": 15,
+      "u": 0.609375,
+      "v": 0.25,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_railway_rifle.png",
+      "isColor": false
+    },
+    "weapons_weapons_repellent_stick": {
+      "col": 14,
+      "row": 15,
+      "u": 0.65625,
+      "v": 0.25,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_repellent_stick.png",
+      "isColor": false
+    },
+    "weapons_weapons_ripper": {
+      "col": 15,
+      "row": 15,
+      "u": 0.703125,
+      "v": 0.25,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_ripper.png",
+      "isColor": false
+    },
+    "weapons_weapons_rolling_pin": {
+      "col": 16,
+      "row": 15,
+      "u": 0.75,
+      "v": 0.25,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_rolling_pin.png",
+      "isColor": false
+    },
+    "weapons_weapons_sawed_off_shotgun": {
+      "col": 17,
+      "row": 15,
+      "u": 0.796875,
+      "v": 0.25,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_sawed_off_shotgun.png",
+      "isColor": false
+    },
+    "weapons_weapons_scoped_magnum": {
+      "col": 18,
+      "row": 15,
+      "u": 0.84375,
+      "v": 0.25,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_scoped_magnum.png",
+      "isColor": false
+    },
+    "weapons_weapons_shishkebab": {
+      "col": 19,
+      "row": 15,
+      "u": 0.890625,
+      "v": 0.25,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_shishkebab.png",
+      "isColor": false
+    },
+    "weapons_weapons_silenced_10mm_pistol": {
+      "col": 20,
+      "row": 15,
+      "u": 0.9375,
+      "v": 0.25,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_silenced_10mm_pistol.png",
+      "isColor": false
+    },
+    "weapons_weapons_sledge_hammer": {
+      "col": 0,
+      "row": 16,
+      "u": 0.0,
+      "v": 0.203125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_sledge_hammer.png",
+      "isColor": false
+    },
+    "weapons_weapons_sniper_rifle": {
+      "col": 1,
+      "row": 16,
+      "u": 0.046875,
+      "v": 0.203125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_sniper_rifle.png",
+      "isColor": false
+    },
+    "weapons_weapons_spiked_knuckles": {
+      "col": 2,
+      "row": 16,
+      "u": 0.09375,
+      "v": 0.203125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_spiked_knuckles.png",
+      "isColor": false
+    },
+    "weapons_weapons_supersledge": {
+      "col": 3,
+      "row": 16,
+      "u": 0.140625,
+      "v": 0.203125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_supersledge.png",
+      "isColor": false
+    },
+    "weapons_weapons_switch_blade_knife": {
+      "col": 4,
+      "row": 16,
+      "u": 0.1875,
+      "v": 0.203125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_switch_blade_knife.png",
+      "isColor": false
+    },
+    "weapons_weapons_tire_iron": {
+      "col": 5,
+      "row": 16,
+      "u": 0.234375,
+      "v": 0.203125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/weapons_weapons_tire_iron.png",
+      "isColor": false
+    },
+    "small_apparel_small_glow_apperal_eulogy_jones_hat": {
+      "col": 6,
+      "row": 16,
+      "u": 0.28125,
+      "v": 0.203125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/small_apparel_small_glow_apperal_eulogy_jones_hat.png",
+      "isColor": false
+    },
+    "stats_skills_barter": {
+      "col": 7,
+      "row": 16,
+      "u": 0.328125,
+      "v": 0.203125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/stats_skills_barter.png",
+      "isColor": false
+    },
+    "stats_skills_big_guns": {
+      "col": 8,
+      "row": 16,
+      "u": 0.375,
+      "v": 0.203125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/stats_skills_big_guns.png",
+      "isColor": false
+    },
+    "stats_skills_energy_weapons": {
+      "col": 9,
+      "row": 16,
+      "u": 0.421875,
+      "v": 0.203125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/stats_skills_energy_weapons.png",
+      "isColor": false
+    },
+    "stats_skills_explosives": {
+      "col": 10,
+      "row": 16,
+      "u": 0.46875,
+      "v": 0.203125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/stats_skills_explosives.png",
+      "isColor": false
+    },
+    "stats_skills_lockpick": {
+      "col": 11,
+      "row": 16,
+      "u": 0.515625,
+      "v": 0.203125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/stats_skills_lockpick.png",
+      "isColor": false
+    },
+    "stats_skills_medicine": {
+      "col": 12,
+      "row": 16,
+      "u": 0.5625,
+      "v": 0.203125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/stats_skills_medicine.png",
+      "isColor": false
+    },
+    "stats_skills_melee_weapons": {
+      "col": 13,
+      "row": 16,
+      "u": 0.609375,
+      "v": 0.203125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/stats_skills_melee_weapons.png",
+      "isColor": false
+    },
+    "stats_skills_repair": {
+      "col": 14,
+      "row": 16,
+      "u": 0.65625,
+      "v": 0.203125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/stats_skills_repair.png",
+      "isColor": false
+    },
+    "stats_skills_science": {
+      "col": 15,
+      "row": 16,
+      "u": 0.703125,
+      "v": 0.203125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/stats_skills_science.png",
+      "isColor": false
+    },
+    "stats_skills_small_guns": {
+      "col": 16,
+      "row": 16,
+      "u": 0.75,
+      "v": 0.203125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/stats_skills_small_guns.png",
+      "isColor": false
+    },
+    "stats_skills_sneak": {
+      "col": 17,
+      "row": 16,
+      "u": 0.796875,
+      "v": 0.203125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/stats_skills_sneak.png",
+      "isColor": false
+    },
+    "stats_skills_speech": {
+      "col": 18,
+      "row": 16,
+      "u": 0.84375,
+      "v": 0.203125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/stats_skills_speech.png",
+      "isColor": false
+    },
+    "stats_skills_unarmed": {
+      "col": 19,
+      "row": 16,
+      "u": 0.890625,
+      "v": 0.203125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/stats_skills_unarmed.png",
+      "isColor": false
+    },
+    "stats_special_agility": {
+      "col": 20,
+      "row": 16,
+      "u": 0.9375,
+      "v": 0.203125,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/stats_special_agility.png",
+      "isColor": false
+    },
+    "stats_special_charisma": {
+      "col": 0,
+      "row": 17,
+      "u": 0.0,
+      "v": 0.15625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/stats_special_charisma.png",
+      "isColor": false
+    },
+    "stats_special_endurance": {
+      "col": 1,
+      "row": 17,
+      "u": 0.046875,
+      "v": 0.15625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/stats_special_endurance.png",
+      "isColor": false
+    },
+    "stats_special_intelligence": {
+      "col": 2,
+      "row": 17,
+      "u": 0.09375,
+      "v": 0.15625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/stats_special_intelligence.png",
+      "isColor": false
+    },
+    "stats_special_luck": {
+      "col": 3,
+      "row": 17,
+      "u": 0.140625,
+      "v": 0.15625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/stats_special_luck.png",
+      "isColor": false
+    },
+    "stats_special_perception": {
+      "col": 4,
+      "row": 17,
+      "u": 0.1875,
+      "v": 0.15625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/stats_special_perception.png",
+      "isColor": false
+    },
+    "stats_special_strength": {
+      "col": 5,
+      "row": 17,
+      "u": 0.234375,
+      "v": 0.15625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/stats_special_strength.png",
+      "isColor": false
+    },
+    "map_icon_map_cave": {
+      "col": 6,
+      "row": 17,
+      "u": 0.28125,
+      "v": 0.15625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/map_icon_map_cave.png",
+      "isColor": false
+    },
+    "map_icon_map_city": {
+      "col": 7,
+      "row": 17,
+      "u": 0.328125,
+      "v": 0.15625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/map_icon_map_city.png",
+      "isColor": false
+    },
+    "map_icon_map_encampment": {
+      "col": 8,
+      "row": 17,
+      "u": 0.375,
+      "v": 0.15625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/map_icon_map_encampment.png",
+      "isColor": false
+    },
+    "map_icon_map_factory": {
+      "col": 9,
+      "row": 17,
+      "u": 0.421875,
+      "v": 0.15625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/map_icon_map_factory.png",
+      "isColor": false
+    },
+    "map_icon_map_metro": {
+      "col": 10,
+      "row": 17,
+      "u": 0.46875,
+      "v": 0.15625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/map_icon_map_metro.png",
+      "isColor": false
+    },
+    "map_icon_map_military": {
+      "col": 11,
+      "row": 17,
+      "u": 0.515625,
+      "v": 0.15625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/map_icon_map_military.png",
+      "isColor": false
+    },
+    "map_icon_map_monument": {
+      "col": 12,
+      "row": 17,
+      "u": 0.5625,
+      "v": 0.15625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/map_icon_map_monument.png",
+      "isColor": false
+    },
+    "map_icon_map_natural_landmark": {
+      "col": 13,
+      "row": 17,
+      "u": 0.609375,
+      "v": 0.15625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/map_icon_map_natural_landmark.png",
+      "isColor": false
+    },
+    "map_icon_map_office": {
+      "col": 14,
+      "row": 17,
+      "u": 0.65625,
+      "v": 0.15625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/map_icon_map_office.png",
+      "isColor": false
+    },
+    "map_icon_map_ruins_sewer": {
+      "col": 15,
+      "row": 17,
+      "u": 0.703125,
+      "v": 0.15625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/map_icon_map_ruins_sewer.png",
+      "isColor": false
+    },
+    "map_icon_map_ruins_town": {
+      "col": 16,
+      "row": 17,
+      "u": 0.75,
+      "v": 0.15625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/map_icon_map_ruins_town.png",
+      "isColor": false
+    },
+    "map_icon_map_ruins_urban": {
+      "col": 17,
+      "row": 17,
+      "u": 0.796875,
+      "v": 0.15625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/map_icon_map_ruins_urban.png",
+      "isColor": false
+    },
+    "map_icon_map_settlement": {
+      "col": 18,
+      "row": 17,
+      "u": 0.84375,
+      "v": 0.15625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/map_icon_map_settlement.png",
+      "isColor": false
+    },
+    "map_icon_map_vault": {
+      "col": 19,
+      "row": 17,
+      "u": 0.890625,
+      "v": 0.15625,
+      "uw": 0.046875,
+      "vh": 0.046875,
+      "url": "/icons/map_icon_map_vault.png",
+      "isColor": false
+    }
+  }
+}
