@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#040907" />
+      <stop offset="50%" stop-color="#08140f" />
+      <stop offset="100%" stop-color="#050b08" />
+    </linearGradient>
+    <radialGradient id="crtGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.16" />
+      <stop offset="65%" stop-color="#059669" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="gearGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="scanlines" width="8" height="4" patternUnits="userSpaceOnUse">
+      <rect width="8" height="1.5" fill="#34d399" fill-opacity="0.035" />
+    </pattern>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#34d399" stroke-width="0.6" stroke-opacity="0.07" />
+    </pattern>
+  </defs>
+
+  <!-- Outer CRT Bezel -->
+  <rect x="2" y="2" width="1196" height="316" rx="18" fill="url(#bgGrad)" stroke="#1f513d" stroke-width="2" />
+  <rect x="10" y="10" width="1180" height="300" rx="13" fill="none" stroke="#34d399" stroke-opacity="0.35" stroke-width="1" />
+
+  <!-- Tactical Grid & Phosphor Glow -->
+  <rect x="10" y="10" width="1180" height="300" rx="13" fill="url(#grid)" />
+  <rect x="10" y="10" width="1180" height="300" rx="13" fill="url(#crtGlow)" />
+  <rect x="10" y="10" width="1180" height="300" rx="13" fill="url(#scanlines)" />
+
+  <!-- Corner Pip-Boy Brackets -->
+  <path d="M 24 52 L 24 24 L 56 24" fill="none" stroke="#34d399" stroke-width="2.5" />
+  <path d="M 1176 52 L 1176 24 L 1144 24" fill="none" stroke="#34d399" stroke-width="2.5" />
+  <path d="M 24 268 L 24 296 L 56 296" fill="none" stroke="#34d399" stroke-width="2.5" />
+  <path d="M 1176 268 L 1176 296 L 1144 296" fill="none" stroke="#34d399" stroke-width="2.5" />
+
+  <!-- Top RobCo Status Header -->
+  <text x="42" y="44" fill="#34d399" fill-opacity="0.85" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="2">
+    ROBCO INDUSTRIES (TM) TERMLINK // ПРОТОКОЛ «ВОЛТ-ТЕК» 2077
+  </text>
+  <text x="1158" y="44" text-anchor="end" fill="#f59e0b" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="1.5">
+    ПИП-БОЙ 3000 • 6 МОДУЛЕЙ ESM
+  </text>
+  <line x1="40" y1="56" x2="1160" y2="56" stroke="#34d399" stroke-opacity="0.28" stroke-width="1" />
+
+  <!-- Left Vault-Tec Gear & Constellation Emblem -->
+  <g transform="translate(135, 168)">
+    <circle cx="0" cy="0" r="86" fill="url(#gearGlow)" />
+    <circle cx="0" cy="0" r="76" fill="none" stroke="#34d399" stroke-opacity="0.22" stroke-width="1" stroke-dasharray="5 5" />
+    <circle cx="0" cy="0" r="58" fill="#07130e" stroke="#f59e0b" stroke-width="2.5" />
+    <g fill="#f59e0b">
+      <rect x="-8" y="-68" width="16" height="14" rx="2" />
+      <rect x="-8" y="54" width="16" height="14" rx="2" />
+      <rect x="-68" y="-8" width="14" height="16" rx="2" />
+      <rect x="54" y="-8" width="14" height="16" rx="2" />
+      <rect x="-8" y="-68" width="16" height="14" rx="2" transform="rotate(45)" />
+      <rect x="-8" y="-68" width="16" height="14" rx="2" transform="rotate(135)" />
+      <rect x="-8" y="-68" width="16" height="14" rx="2" transform="rotate(225)" />
+      <rect x="-8" y="-68" width="16" height="14" rx="2" transform="rotate(315)" />
+    </g>
+    <line x1="-88" y1="-16" x2="-46" y2="-16" stroke="#34d399" stroke-width="2" />
+    <line x1="-96" y1="0" x2="-58" y2="0" stroke="#34d399" stroke-width="2.5" />
+    <line x1="-88" y1="16" x2="-46" y2="16" stroke="#34d399" stroke-width="2" />
+    <line x1="46" y1="-16" x2="88" y2="-16" stroke="#34d399" stroke-width="2" />
+    <line x1="58" y1="0" x2="96" y2="0" stroke="#34d399" stroke-width="2.5" />
+    <line x1="46" y1="16" x2="88" y2="16" stroke="#34d399" stroke-width="2" />
+    <circle cx="0" cy="0" r="42" fill="none" stroke="#f59e0b" stroke-opacity="0.45" stroke-width="1.2" />
+    <text x="0" y="11" text-anchor="middle" fill="#fbbf24" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="32" font-weight="900" letter-spacing="1">
+      F3
+    </text>
+    <circle cx="-54" cy="-54" r="4.5" fill="#38bdf8" />
+    <circle cx="58" cy="-48" r="4.5" fill="#f43f5e" />
+    <circle cx="52" cy="56" r="4.5" fill="#34d399" />
+    <circle cx="-56" cy="50" r="4.5" fill="#a78bfa" />
+  </g>
+
+  <!-- Main Title & Subtitle -->
+  <g transform="translate(268, 108)">
+    <rect x="0" y="-22" width="276" height="24" rx="5" fill="#10b981" fill-opacity="0.16" stroke="#34d399" stroke-opacity="0.55" stroke-width="1" />
+    <text x="12" y="-6" fill="#6ee7b7" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11.5" font-weight="700" letter-spacing="1.6">
+      ИНТЕРАКТИВНЫЙ 3D-АТЛАС МИРА
+    </text>
+
+    <text x="0" y="40" fill="#ecfdf5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="900" letter-spacing="1.2">
+      FALLOUT 3 <tspan fill="#fbbf24">GOTY</tspan>
+    </text>
+
+    <text x="0" y="72" fill="#a7f3d0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="0.3">
+      3D-граф Столичной Пустоши, прохождение всех миссий и энциклопедия
+    </text>
+
+    <text x="0" y="99" fill="#6ee7b7" fill-opacity="0.78" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13">
+      Прямой парсинг всех 6 ESM-модулей • Двуязычная база RU / EN • Three.js WebGL
+    </text>
+
+    <!-- Bottom Telemetry Pills -->
+    <g transform="translate(0, 122)" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="700">
+      <rect x="0" y="0" width="152" height="30" rx="6" fill="#071510" stroke="#34d399" stroke-opacity="0.5" />
+      <circle cx="15" cy="15" r="4" fill="#34d399" />
+      <text x="26" y="19" fill="#d1fae5">4 239 УЗЛОВ</text>
+
+      <rect x="164" y="0" width="166" height="30" rx="6" fill="#071510" stroke="#38bdf8" stroke-opacity="0.5" />
+      <circle cx="179" cy="15" r="4" fill="#38bdf8" />
+      <text x="190" y="19" fill="#e0f2fe">20 280 СВЯЗЕЙ</text>
+
+      <rect x="342" y="0" width="148" height="30" rx="6" fill="#071510" stroke="#f59e0b" stroke-opacity="0.55" />
+      <circle cx="357" cy="15" r="4" fill="#f59e0b" />
+      <text x="368" y="19" fill="#fef3c7">81 МИССИЯ</text>
+
+      <rect x="502" y="0" width="168" height="30" rx="6" fill="#071510" stroke="#a78bfa" stroke-opacity="0.5" />
+      <circle cx="517" cy="15" r="4" fill="#a78bfa" />
+      <text x="528" y="19" fill="#ede9fe">ИГРА + 5 DLC</text>
+
+      <rect x="682" y="0" width="174" height="30" rx="6" fill="#071510" stroke="#f43f5e" stroke-opacity="0.5" />
+      <circle cx="697" cy="15" r="4" fill="#f43f5e" />
+      <text x="708" y="19" fill="#ffe4e6">377 ИКОНОК</text>
+    </g>
+  </g>
+
+  <!-- Bottom CRT Footer Line -->
+  <line x1="40" y1="278" x2="1160" y2="278" stroke="#34d399" stroke-opacity="0.22" stroke-width="1" />
+  <text x="42" y="295" fill="#34d399" fill-opacity="0.65" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" letter-spacing="1.4">
+    &gt; СТАТУС: БАЗА СТОЛИЧНОЙ ПУСТОШИ АКТИВНА // ЗАТЕНЕНИЕ ГЛУБИНЫ И ПОЛЁТ ПО СВЯЗЯМ_
+  </text>
+  <text x="1158" y="295" text-anchor="end" fill="#34d399" fill-opacity="0.65" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" letter-spacing="1.4">
+    [ RU / EN ИНТЕРФЕЙС ]
+  </text>
+</svg>
