@@ -15,6 +15,41 @@ export interface NeighborEntry {
   direction: "out" | "in";
 }
 
+function getNeighborNavPriority(entry: NeighborEntry): number {
+  const n = entry.node;
+  const et = entry.edge.type;
+  let score = 0;
+
+  if (et === "quest_chain") score += 900;
+  else if (et === "quest_event") score += 820;
+  else if (et === "quest_npc" || et === "quest_location") score += 760;
+  else if (et === "event_entity") score += 680;
+  else if (et === "npc_location") score += 620;
+  else if (et === "quest_item" || et === "quest_object" || et === "object_key") score += 540;
+  else if (et === "location_connection") score += 460;
+  else if (et === "npc_item") score += 260;
+  else if (et === "location_object") score += 130;
+  else if (et === "location_item") score += 50;
+
+  if (n.type === "quest") score += n.subtype === "main" ? 340 : 250;
+  else if (n.type === "event") score += 240;
+  else if (n.type === "character") score += n.subtype === "npc" ? 200 : 120;
+  else if (n.type === "location") {
+    if (n.subtype === "marker") score += 220;
+    else if (n.subtype === "world") score -= 220;
+    else score += 110;
+  } else if (n.type === "item") {
+    if (n.subtype === "key" || n.subtype === "note" || n.subtype === "book") score += 140;
+    else if (n.degree > 40) score -= 260;
+  } else if (n.type === "object") {
+    if (n.subtype === "perk" || n.subtype === "terminal") score += 150;
+    else if (/^(дверь|door|лестница|ladder|люк)$/i.test(n.label)) score -= 180;
+  }
+
+  score += Math.min(35, Math.sqrt(Math.max(1, n.degree)) * 4.5);
+  return score;
+}
+
 export interface FalloutDataState {
   loading: boolean;
   error: string | null;
@@ -169,6 +204,7 @@ export function useFalloutData(lang: Lang): FalloutDataState {
     for (const list of map.values()) {
       list.sort(
         (a, b) =>
+          getNeighborNavPriority(b) - getNeighborNavPriority(a) ||
           b.node.degree - a.node.degree ||
           getNodeLabel(a.node, lang).localeCompare(getNodeLabel(b.node, lang), locale)
       );

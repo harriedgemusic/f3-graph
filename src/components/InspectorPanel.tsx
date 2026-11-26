@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from "react";
-import { BookOpen, Focus, GitFork, Layers, Maximize2, Minimize2, X } from "lucide-react";
+import { ArrowRight, BookOpen, ChevronDown, ChevronUp, Focus, GitFork, Layers, Maximize2, Minimize2, Navigation, X } from "lucide-react";
 import {
   DLC_META,
   EDGE_META,
@@ -31,6 +31,22 @@ interface InspectorPanelProps {
   onOpenWalkthrough: (walkthroughId: string) => void;
 }
 
+const EDGE_GROUP_PRIORITY: Record<EdgeType, number> = {
+  quest_chain: 1,
+  quest_event: 2,
+  quest_npc: 3,
+  quest_location: 4,
+  event_entity: 5,
+  npc_location: 6,
+  location_connection: 7,
+  quest_item: 8,
+  quest_object: 9,
+  object_key: 10,
+  npc_item: 11,
+  location_object: 12,
+  location_item: 13,
+};
+
 export const InspectorPanel: React.FC<InspectorPanelProps> = ({
   node,
   details,
@@ -48,6 +64,7 @@ export const InspectorPanel: React.FC<InspectorPanelProps> = ({
   const { lang, t, getNodeLabel, getNodeAltLabel } = useI18n();
   const [neighborFilter, setNeighborFilter] = useState("");
   const [isExpanded, setIsExpanded] = useState(false);
+  const [linksCollapsed, setLinksCollapsed] = useState(false);
 
   const meta = ENTITY_META[node.type];
   const dlc = DLC_META[node.dlc];
@@ -71,7 +88,9 @@ export const InspectorPanel: React.FC<InspectorPanelProps> = ({
       list.push(entry);
       groups.set(entry.edge.type, list);
     }
-    return Array.from(groups.entries());
+    return Array.from(groups.entries()).sort(
+      (a, b) => (EDGE_GROUP_PRIORITY[a[0]] ?? 99) - (EDGE_GROUP_PRIORITY[b[0]] ?? 99)
+    );
   }, [neighbors, neighborFilter]);
 
   return (
@@ -188,88 +207,116 @@ export const InspectorPanel: React.FC<InspectorPanelProps> = ({
 
       {/* Scrollable Body */}
       <div className="flex-1 overflow-y-auto p-4 space-y-4">
+        {/* Connected Entities Quick-Fly Block (placed at top for immediate link navigation) */}
+        <div className="rounded-xl border border-emerald-800/55 bg-[#070f0c]/90 p-3 space-y-2.5 shadow-inner">
+          <div className="flex items-center justify-between gap-2">
+            <button
+              type="button"
+              onClick={() => setLinksCollapsed((v) => !v)}
+              className="flex flex-1 items-center justify-between gap-2 text-left"
+            >
+              <h3 className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-emerald-300">
+                <Navigation className="h-3.5 w-3.5 text-emerald-400" />
+                <span>
+                  {t.inspector.connectedEntities} ({neighbors.length})
+                </span>
+              </h3>
+              <span className="rounded p-0.5 text-emerald-400 hover:bg-emerald-950/70">
+                {linksCollapsed ? (
+                  <ChevronDown className="h-3.5 w-3.5" />
+                ) : (
+                  <ChevronUp className="h-3.5 w-3.5" />
+                )}
+              </span>
+            </button>
+          </div>
+
+          {!linksCollapsed && (
+            <>
+              {neighbors.length > 5 && (
+                <input
+                  type="text"
+                  value={neighborFilter}
+                  onChange={(e) => setNeighborFilter(e.target.value)}
+                  placeholder={t.inspector.filterLinksPlaceholder}
+                  className="w-full rounded-md border border-emerald-900/60 bg-[#050a08] px-2.5 py-1.5 text-xs text-emerald-100 placeholder-emerald-600 focus:border-emerald-500 focus:outline-none"
+                />
+              )}
+              {groupedNeighbors.length === 0 ? (
+                <p className="text-xs text-emerald-500/70">{t.inspector.noMatchingLinks}</p>
+              ) : (
+                <div className="max-h-60 space-y-2.5 overflow-y-auto pr-1">
+                  {groupedNeighbors.map(([edgeType, list]) => {
+                    const em = EDGE_META[edgeType] ?? {
+                      label: edgeType,
+                      labelEn: edgeType,
+                      color: "#34d399",
+                    };
+                    return (
+                      <div key={edgeType} className="space-y-1">
+                        <div className="flex items-center justify-between text-[11px] font-medium text-emerald-400/90">
+                          <span className="flex items-center gap-1.5">
+                            <span
+                              className="h-2 w-2 rounded-full"
+                              style={{ backgroundColor: em.color }}
+                            />
+                            {getEdgeLabel(edgeType, lang)}
+                          </span>
+                          <span className="font-mono text-emerald-600">{list.length}</span>
+                        </div>
+                        <div className="flex flex-wrap gap-1">
+                          {list.slice(0, 40).map((entry) => {
+                            const nm = ENTITY_META[entry.node.type];
+                            const entryLabel = getNodeLabel(entry.node);
+                            const iconUrl =
+                              entry.node.icon && iconAtlas
+                                ? iconAtlas.icons[entry.node.icon]?.url
+                                : undefined;
+                            return (
+                              <button
+                                key={`${entry.edge.id}-${entry.node.id}`}
+                                onClick={() => onSelectNode(entry.node.id)}
+                                className={`group inline-flex max-w-full items-center gap-1.5 rounded border px-2 py-0.5 text-left text-[11px] transition hover:brightness-125 ${nm.bgClass} ${nm.borderClass} ${nm.textClass}`}
+                                title={`${t.graph.flyAlongLinkTitle} «${entryLabel}» (${entry.node.edid})`}
+                              >
+                                {iconUrl ? (
+                                  <img
+                                    src={iconUrl}
+                                    alt=""
+                                    className="h-3.5 w-3.5 shrink-0 object-contain"
+                                    loading="lazy"
+                                  />
+                                ) : (
+                                  <span
+                                    className={`h-1.5 w-1.5 shrink-0 rounded-full ${nm.dotClass}`}
+                                  />
+                                )}
+                                <span className="truncate">{entryLabel}</span>
+                                <ArrowRight className="h-3 w-3 shrink-0 opacity-55 transition-transform group-hover:translate-x-0.5 group-hover:opacity-100" />
+                              </button>
+                            );
+                          })}
+                          {list.length > 40 && (
+                            <span className="px-1.5 py-0.5 text-[11px] text-emerald-500">
+                              +{list.length - 40} {t.inspector.moreCount}
+                            </span>
+                          )}
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
+            </>
+          )}
+        </div>
+
         <EncyclopediaDetailsBlock
           node={node}
           detail={detail}
           onSelectNode={onSelectNode}
           compact={!isExpanded}
         />
-
-        {/* Neighbors list */}
-        <div className="space-y-2">
-          <div className="flex items-center justify-between gap-2">
-            <h3 className="text-xs font-semibold uppercase tracking-wider text-emerald-400">
-              {t.inspector.connectedEntities} ({neighbors.length})
-            </h3>
-          </div>
-          {neighbors.length > 6 && (
-            <input
-              type="text"
-              value={neighborFilter}
-              onChange={(e) => setNeighborFilter(e.target.value)}
-              placeholder={t.inspector.filterLinksPlaceholder}
-              className="w-full rounded-md border border-emerald-900/60 bg-[#080d0b] px-2.5 py-1.5 text-xs text-emerald-100 placeholder-emerald-600 focus:border-emerald-500 focus:outline-none"
-            />
-          )}
-          {groupedNeighbors.length === 0 ? (
-            <p className="text-xs text-emerald-500/70">{t.inspector.noMatchingLinks}</p>
-          ) : (
-            <div className="space-y-3">
-              {groupedNeighbors.map(([edgeType, list]) => {
-                const em = EDGE_META[edgeType] ?? { label: edgeType, labelEn: edgeType, color: "#34d399" };
-                return (
-                  <div key={edgeType} className="space-y-1">
-                    <div className="flex items-center justify-between text-[11px] font-medium text-emerald-400/90">
-                      <span className="flex items-center gap-1.5">
-                        <span
-                          className="h-2 w-2 rounded-full"
-                          style={{ backgroundColor: em.color }}
-                        />
-                        {getEdgeLabel(edgeType, lang)}
-                      </span>
-                      <span className="font-mono text-emerald-600">{list.length}</span>
-                    </div>
-                    <div className="flex flex-wrap gap-1">
-                      {list.slice(0, 40).map((entry) => {
-                        const nm = ENTITY_META[entry.node.type];
-                        const entryLabel = getNodeLabel(entry.node);
-                        const iconUrl =
-                          entry.node.icon && iconAtlas
-                            ? iconAtlas.icons[entry.node.icon]?.url
-                            : undefined;
-                        return (
-                          <button
-                            key={`${entry.edge.id}-${entry.node.id}`}
-                            onClick={() => onSelectNode(entry.node.id)}
-                            className={`inline-flex max-w-full items-center gap-1.5 rounded border px-2 py-0.5 text-left text-[11px] transition hover:brightness-125 ${nm.bgClass} ${nm.borderClass} ${nm.textClass}`}
-                            title={`${entryLabel} (${entry.node.edid})`}
-                          >
-                            {iconUrl ? (
-                              <img
-                                src={iconUrl}
-                                alt=""
-                                className="h-3.5 w-3.5 shrink-0 object-contain"
-                                loading="lazy"
-                              />
-                            ) : (
-                              <span className={`h-1.5 w-1.5 shrink-0 rounded-full ${nm.dotClass}`} />
-                            )}
-                            <span className="truncate">{entryLabel}</span>
-                          </button>
-                        );
-                      })}
-                      {list.length > 40 && (
-                        <span className="px-1.5 py-0.5 text-[11px] text-emerald-500">
-                          +{list.length - 40} {t.inspector.moreCount}
-                        </span>
-                      )}
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          )}
-        </div>
 
         {/* Muted Technical ESM Footer */}
         <div className="flex flex-wrap items-center justify-between gap-2 border-t border-emerald-900/35 pt-2.5 font-mono text-[10px] text-emerald-600/80">
